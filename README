@@ -1,7 +1,9 @@
-Data folder (/data) should contain:
-    1) Minneapolis Centerline data
-        - Download from https://opendata.minneapolismn.gov/datasets/mpls-centerline/explore as a Shapefile. There will be a bunch of different files all called "MPLS_Centerline" all with different extensions that should be there.
-    2) Minneapolis Scooter data
-        - Download from https://opendata.minneapolismn.gov/datasets/cityoflakes::motorized-foot-scooter-trips-2021/about as a CSV file.
-        
-ScooterMap & ScooterData must be placed in a folder called ScooterMap (/ScooterMap).  The data folder created above must also be moved to the ScooterMap folder.
+# Visualizing Electric Scooter Rides Around Minneapolis in 2021
+
+This project can be run with Processing.
+
+The data folder within the ScooterMap folder should contain:
+    1) Minneapolis Centerline data (already in this repository)
+        - Downloaded from https://opendata.minneapolismn.gov/datasets/mpls-centerline/explore as a Shapefile. There are a lot of different files all called "MPLS_Centerline" all with different extensions that should be there.
+    2) Minneapolis Scooter data (not currently in this repository, as it is a large file)
+        - Download from https://opendata.minneapolismn.gov/datasets/cityoflakes::motorized-foot-scooter-trips-2021/about as a CSV file.  The file name should be "Motorized_Foot_Scooter_Trips_2021".
