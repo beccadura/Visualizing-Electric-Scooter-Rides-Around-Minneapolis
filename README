@@ -1,0 +1,7 @@
+Data folder (/data) should contain:
+    1) Minneapolis Centerline data
+        - Download from https://opendata.minneapolismn.gov/datasets/mpls-centerline/explore as a Shapefile. There will be a bunch of different files all called "MPLS_Centerline" all with different extensions that should be there.
+    2) Minneapolis Scooter data
+        - Download from https://opendata.minneapolismn.gov/datasets/cityoflakes::motorized-foot-scooter-trips-2021/about as a CSV file.
+        
+ScooterMap & ScooterData must be placed in a folder called ScooterMap (/ScooterMap).  The data folder created above must also be moved to the ScooterMap folder.
